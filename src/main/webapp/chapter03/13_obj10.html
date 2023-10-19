@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>object</title>
+</head>
+<body>
+<div id="digClock"></div>
+<script>
+	function add(){
+		var header=document.createElement('h3');  // h3 요소 생성
+		var textNode=document.createTextNode("내 이름은 노무현입니다");
+		
+		header.appendChild(textNode); // h3 태그가 들어온거
+		document.body.appendChild(header);
+	}
+	
+</script>
+
+<a href="#" onclick="add()">당신의 이름은?</a>
+
+</body>
+</html>
+
